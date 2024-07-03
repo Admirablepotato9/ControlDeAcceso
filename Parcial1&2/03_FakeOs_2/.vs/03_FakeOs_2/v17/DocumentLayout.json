@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AP5\\Documents\\Arquitectura_De_Computadoras\\03_FakeOs_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C178FB-F194-4EEE-962B-B6117BD81C2C}|03_FakeOs_2\\03_FakeOs_2.vcxproj|C:\\Users\\AP5\\Documents\\Arquitectura_De_Computadoras\\03_FakeOs_2\\03_FakeOs_2\\03_FakeOs_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9C178FB-F194-4EEE-962B-B6117BD81C2C}|03_FakeOs_2\\03_FakeOs_2.vcxproj|solutionrelative:03_FakeOs_2\\03_FakeOs_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "03_FakeOs_2.cpp",
+              "DocumentMoniker": "C:\\Users\\AP5\\Documents\\Arquitectura_De_Computadoras\\03_FakeOs_2\\03_FakeOs_2\\03_FakeOs_2.cpp",
+              "RelativeDocumentMoniker": "03_FakeOs_2\\03_FakeOs_2.cpp",
+              "ToolTip": "C:\\Users\\AP5\\Documents\\Arquitectura_De_Computadoras\\03_FakeOs_2\\03_FakeOs_2\\03_FakeOs_2.cpp",
+              "RelativeToolTip": "03_FakeOs_2\\03_FakeOs_2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-25T16:24:57.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

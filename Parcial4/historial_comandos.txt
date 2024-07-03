@@ -1,0 +1,123 @@
+1  sudo groupadd administrativo
+2  sudo groupadd marketing
+3  sudo groupadd limpieza
+4  sudo groupadd alumno
+5  sudo groupadd docencia
+6  sudo groupadd comida
+7  sudo groupadd ceo
+8  cat /etc/group
+9  sudo useradd -m administrativo1
+10  sudo useradd -m administrativo2
+11  sudo useradd -m administrativo3
+12  sudo useradd -m marketing
+13  sudo useradd -m marketing2
+14  sudo useradd -m marketing3
+15  sudo useradd -m marketing1
+16  sudo useradd -m limpieza1
+17  sudo useradd -m alumno1
+18  sudo useradd -m alumno2
+19  sudo useradd -m alumno3
+20  sudo useradd -m docencia1
+21  sudo useradd -m docencia2
+22  sudo useradd -m docencia3
+23  sudo useradd -m comida1
+24  sudo useradd -m comida2
+25  sudo useradd -m comida3
+26  sudo useradd -m ClaudiaSheinbaum
+27  sudo usermod -aG administrativo administrativo1
+28  sudo usermod -aG administrativo administrativo2
+29  sudo usermod -aG administrativo administrativo3
+30  sudo usermod -aG marketing marketing1
+31  sudo usermod -aG marketing marketing2
+32  sudo usermod -aG marketing marketing3
+33  sudo usermod -aG limpieza limpieza1
+34  sudo usermod -aG limpieza limpieza2
+35  sudo usermod -aG limpieza limpieza3
+36  sudo usermod -aG alumno alumno1
+37  sudo usermod -aG alumno alumno2
+38  sudo usermod -aG alumno alumno3
+39  sudo usermod -aG docencia docencia1
+40  sudo usermod -aG docencia docencia2
+41  sudo usermod -aG docencia docencia3
+42  sudo usermod -aG comida comida1
+43  sudo usermod -aG comida comida2
+44  sudo usermod -aG comida comida3
+45  sudo usermod -aG ceo ClaudiaSheinbaum
+46  ls -l /home
+47  cd /home/marketing1
+48  ls -l
+49  sudo passwd administrativo1
+50  sudo passwd administrativo2
+51  sudo passwd administrativo3
+52  sudo passwd marketing1
+53  sudo passwd marketing2
+54  sudo passwd marketing3
+55  sudo passwd limpieza1
+56  sudo passwd limpieza2
+57  sudo passwd limpieza3
+58  sudo passwd alumno1
+59  sudo passwd alumno2
+60  sudo passwd alumno3
+61  sudo passwd docencia1
+62  sudo passwd docencia2
+63  sudo passwd docencia3
+64  sudo passwd comida1
+65  sudo passwd comida2
+66  sudo passwd comida3
+67  sudo passwd ClaudiaSheinbaum
+68  su marketing1
+69  su - marketing1
+70  cd /home/administrativo1/
+71  whoami
+72  su -c "touch file1; touch file2" administrativo1
+73  ls -l
+74  cd /home/administrativo2/
+75  su -c "touch file1; touch file2" administrativo2
+76  cd /home/administrativo3/
+77  su -c "touch file1; touch file2" administrativo3
+78  cd /home/marketing1/
+79  su -c "touch file1; touch file2" marketing1
+80  cd /home/marketing2/
+81  su -c "touch file1; touch file2" marketing2
+82  cd /home/marketing3/
+83  su -c "touch file1; touch file2" marketing3
+84  cd /home/limpieza1/
+85  su -c "touch file1; touch file2" limpieza1
+86  
+87  cd /home/limpieza2/
+88  su -c "touch file1; touch file2" limpieza2
+89  cd /home/limpieza3/
+90  su -c "touch file1; touch file2" limpieza3
+91  cd /home/alumno1
+92  su -c "touch file1; touch file2" alumno1
+93  cd /home/alumno2
+94  su -c "touch file1; touch file2" alumno2
+95  cd /home/alumno3
+96  su -c "touch file1; touch file2" alumno3
+97  cd /home/docencia1
+98  su -c "touch file1; touch file2" docencia1
+99  cd /home/docencia2
+100  su -c "touch file1; touch file2" docencia2
+101  cd /home/docencia3
+102  su -c "touch file1; touch file2" docencia3
+103  cd /home/comida1
+104  su -c "touch file1; touch file2" comida1
+105  su comida1
+106  sudo passwd commida1
+107  su -c "touch file1; touch file2" comida1
+108  sudo passwd commida1
+109  su comida1
+110  sudo passwd commida1
+111  sudo passwd comida1
+112  su -c "touch file1; touch file2" comida1
+113  cd /home/comida2
+114  su -c "touch file1; touch file2" comida2
+115  cd /home/comida3
+116  su -c "touch file1; touch file2" comida3
+117  cd /home/ClaudiaSheinbaum
+118  su -c "touch file1; touch file2" ClaudiaSheinbaum
+119  cd /home/admirablepotato
+120  history > historial_comandos.txt
+121  for user in $(ls /home); do echo "Historial del usuario: $user"; sudo cat /home/$user/.bash_history; echo ""; done
+122  history > historial_comandos.txt
+
